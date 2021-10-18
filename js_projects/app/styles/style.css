@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+  background-color: #f5f7f9;
+}
+
+*,
+*:after,
+*::before {
+  box-sizing: inherit;
+}
+
+.fw-widget-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  padding: 10px;
+  /* border-radius: 10px; */
+  width: 90%;
+  border: 1px solid #fff;
+  margin: auto;
+}
+
+.card:hover {
+  border: 1px solid #12344d;
+}
+
+.attachment-details-name > p {
+  margin: 0px;
+}
+
+.attachment-details-name:hover {
+  /* -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  ); */
+  mask-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0%, rgba(255, 255, 255, 1)),
+    color-stop(50%, rgba(255, 255, 255, 0)),
+    color-stop(100%, rgba(255, 255, 255, 0))
+  );
+
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0%, rgba(255, 255, 255, 1)),
+    color-stop(50%, rgba(255, 255, 255, 0)),
+    color-stop(100%, rgba(255, 255, 255, 0))
+  );
+}

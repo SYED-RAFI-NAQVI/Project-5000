@@ -1,0 +1,12 @@
+{
+  "freshdesk_api_key": {
+    "display_name": "Freshdesk API key",
+    "description": "Please enter your Freshdesk API key",
+    "type": "api_key",
+    "secure": true,
+    "required": true,
+    "type_attributes": {
+      "product": "freshdesk"
+    }
+  }
+}
